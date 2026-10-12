@@ -1,0 +1,9 @@
+[package]
+name = "hmacseal-common"
+version = "0.1.0"
+edition = "2021"
+license = "BSD-2-Clause"
+
+[dependencies]
+zeroize = "1"
+interprocess = "2.4"

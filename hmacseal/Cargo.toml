@@ -1,0 +1,15 @@
+[package]
+name = "hmacseal"
+version = "0.1.0"
+edition = "2021"
+license = "BSD-2-Clause"
+
+[dependencies]
+hmacseal-common = { path = "../common" }
+sha2 = "0.10"
+hkdf = "0.12"
+aes-gcm = "0.10"
+getrandom = "0.2"
+zeroize = "1"
+
+[dev-dependencies]
